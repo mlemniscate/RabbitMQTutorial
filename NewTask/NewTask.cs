@@ -8,7 +8,7 @@ var factory = new ConnectionFactory { HostName = "localhost" };
 using var connection = factory.CreateConnection();
 using var channel = connection.CreateModel();
 channel.QueueDeclare(
-    queue: "hello",
+    queue: "task_queue",
     durable: true,
     exclusive: false,
     autoDelete: false,
@@ -19,7 +19,7 @@ var body = Encoding.UTF8.GetBytes(message);
 
 channel.BasicPublish(
     exchange: "",
-    routingKey: "hello",
+    routingKey: "task_queue",
     basicProperties: null,
     body: body);
 
