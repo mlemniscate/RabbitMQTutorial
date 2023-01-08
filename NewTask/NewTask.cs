@@ -17,6 +17,9 @@ channel.QueueDeclare(
 string message = ConsoleMessage.GetMessage(args);
 var body = Encoding.UTF8.GetBytes(message);
 
+var properties = channel.CreateBasicProperties();
+properties.Persistent = true;
+
 channel.BasicPublish(
     exchange: "",
     routingKey: "task_queue",
