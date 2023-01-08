@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using System.Text;
+using NewTask;
 using RabbitMQ.Client;
+using System.Text;
 
 var factory = new ConnectionFactory { HostName = "localhost" };
 using var connection = factory.CreateConnection();
@@ -13,7 +14,7 @@ channel.QueueDeclare(
     autoDelete: false,
     arguments: null);
 
-string message = "Hello World!";
+string message = ConsoleMessage.GetMessage(args);
 var body = Encoding.UTF8.GetBytes(message);
 
 channel.BasicPublish(

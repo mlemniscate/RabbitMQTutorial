@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", "{FFB6AA40-328E-49B9-B0E1-38A0D0DE4F46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTask", "NewTask\NewTask.csproj", "{EB6BD7E4-753D-4F6C-861E-21C9E913B28D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{5A982897-D19E-4F7F-BD86-853B5591F126}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{FFB6AA40-328E-49B9-B0E1-38A0D0DE4F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFB6AA40-328E-49B9-B0E1-38A0D0DE4F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFB6AA40-328E-49B9-B0E1-38A0D0DE4F46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6BD7E4-753D-4F6C-861E-21C9E913B28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6BD7E4-753D-4F6C-861E-21C9E913B28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6BD7E4-753D-4F6C-861E-21C9E913B28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6BD7E4-753D-4F6C-861E-21C9E913B28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A982897-D19E-4F7F-BD86-853B5591F126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A982897-D19E-4F7F-BD86-853B5591F126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A982897-D19E-4F7F-BD86-853B5591F126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A982897-D19E-4F7F-BD86-853B5591F126}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
