@@ -1,0 +1,2 @@
+# RabbitMQTutorial
+RabbitMQ tutorial training
