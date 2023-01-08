@@ -1,4 +1,4 @@
-﻿namespace EmitLog;
+﻿namespace EmitLogDirect;
 
 public static class ConsoleMessage
 {
