@@ -3,29 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.csproj", "{0EE0F547-032E-4C2F-9D1D-6DBB25A43E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "Receive\Receive.csproj", "{0EE0F547-032E-4C2F-9D1D-6DBB25A43E24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", "{FFB6AA40-328E-49B9-B0E1-38A0D0DE4F46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{FFB6AA40-328E-49B9-B0E1-38A0D0DE4F46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTask", "NewTask\NewTask.csproj", "{EB6BD7E4-753D-4F6C-861E-21C9E913B28D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTask", "NewTask\NewTask.csproj", "{EB6BD7E4-753D-4F6C-861E-21C9E913B28D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{5A982897-D19E-4F7F-BD86-853B5591F126}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "Worker\Worker.csproj", "{5A982897-D19E-4F7F-BD86-853B5591F126}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLog", "EmitLog\EmitLog.csproj", "{96C61A70-5C1D-4FD4-827D-B31C98B44613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLog", "EmitLog\EmitLog.csproj", "{96C61A70-5C1D-4FD4-827D-B31C98B44613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLog", "ReceiveLog\ReceiveLog.csproj", "{217C68DE-388F-499A-9827-FF251F962C63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLog", "ReceiveLog\ReceiveLog.csproj", "{217C68DE-388F-499A-9827-FF251F962C63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{2C4FBB4F-3B4C-4524-86E1-43A010A3CEF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmitLogDirect", "EmitLogDirect\EmitLogDirect.csproj", "{2C4FBB4F-3B4C-4524-86E1-43A010A3CEF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiveLogDirect", "ReceiveLogDirect\ReceiveLogDirect.csproj", "{5C86A0FB-13D0-4732-B948-5D52D47D9B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReceiveLogDirect", "ReceiveLogDirect\ReceiveLogDirect.csproj", "{5C86A0FB-13D0-4732-B948-5D52D47D9B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCClient", "RPCClient\RPCClient\RPCClient.csproj", "{AE91B638-1514-4C6A-A96F-79107D45C165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPCServer", "RPCServer\RPCServer\RPCServer.csproj", "{83F2DA5A-C7FC-4DE1-A590-1DC4C0ABFCCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0EE0F547-032E-4C2F-9D1D-6DBB25A43E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -60,5 +61,19 @@ Global
 		{5C86A0FB-13D0-4732-B948-5D52D47D9B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C86A0FB-13D0-4732-B948-5D52D47D9B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C86A0FB-13D0-4732-B948-5D52D47D9B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE91B638-1514-4C6A-A96F-79107D45C165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE91B638-1514-4C6A-A96F-79107D45C165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE91B638-1514-4C6A-A96F-79107D45C165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE91B638-1514-4C6A-A96F-79107D45C165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83F2DA5A-C7FC-4DE1-A590-1DC4C0ABFCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F2DA5A-C7FC-4DE1-A590-1DC4C0ABFCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F2DA5A-C7FC-4DE1-A590-1DC4C0ABFCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F2DA5A-C7FC-4DE1-A590-1DC4C0ABFCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED887878-F961-469C-AC7F-853EC84B7B58}
 	EndGlobalSection
 EndGlobal
